@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "neos/flow": "^4.0"
+        "typo3/flow": "^3.2"
     },
     "autoload": {
         "psr-4": {

@@ -11,8 +11,8 @@ namespace Flowpack\CacheBuster\Aspects;
  * source code.
  */
 
-use Neos\Flow\Annotations as Flow;
-use Neos\Flow\Aop\JoinPointInterface;
+use TYPO3\Flow\Annotations as Flow;
+use TYPO3\Flow\Aop\JoinPointInterface;
 
 /**
  * @Flow\Aspect
@@ -20,7 +20,7 @@ use Neos\Flow\Aop\JoinPointInterface;
 class CacheBusterAspect
 {
     /**
-     * @Flow\Around("method(Neos\Flow\ResourceManagement\ResourceManager->getPublicPackageResourceUri())")
+     * @Flow\Around("method(TYPO3\Flow\Resource\ResourceManager->getPublicPackageResourceUri())")
      *
      * @param JoinPointInterface $joinPoint The current joinpoint
      *
